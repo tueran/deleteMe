@@ -1,28 +1,16 @@
 {
-  "name": "cordova-plugin-device",
-  "version": "1.1.4-dev",
-  "description": "Cordova Device Plugin",
+  "name": "cordova-plugin-deleteMe",
+  "version": "1.0",
+  "description": "Cordova DeleteMe Plugin",
   "cordova": {
-    "id": "cordova-plugin-device",
+    "id": "cordova-plugin-deleteMe",
     "platforms": [
-      "firefoxos",
-      "tizen",
-      "android",
-      "amazon-fireos",
-      "ubuntu",
-      "ios",
-      "blackberry10",
-      "wp7",
-      "wp8",
-      "windows8",
-      "windows",
-      "browser",
-      "osx"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-device"
+    "url": "https://github.com/tueran/deleteMe"
   },
   "keywords": [
     "cordova",

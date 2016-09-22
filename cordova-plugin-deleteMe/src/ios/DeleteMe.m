@@ -22,7 +22,7 @@
 #include "TargetConditionals.h"
 
 #import <Cordova/CDV.h>
-#import "CDVDevice.h"
+#import "DeleteMe.h"
 
 @implementation UIDevice (ModelVersion)
 
@@ -41,10 +41,10 @@
 
 @end
 
-@interface CDVDevice () {}
+@interface DeleteMe () {}
 @end
 
-@implementation CDVDevice
+@implementation DeleteMe
 
 - (NSString*)uniqueAppInstanceIdentifier:(UIDevice*)device
 {

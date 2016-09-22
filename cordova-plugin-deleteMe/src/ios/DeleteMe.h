@@ -17,12 +17,14 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVDevice : CDVPlugin
+@interface DeleteMe : CDVPlugin
+{}
 
-+ (NSString*) cordovaVersion;
++ (NSString*)cordovaVersion;
 
-- (void) getDeviceInfo:(CDVInvokedUrlCommand*)command;
+- (void)getDeviceInfo:(CDVInvokedUrlCommand*)command;
 
 @end
