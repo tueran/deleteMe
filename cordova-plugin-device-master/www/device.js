@@ -34,7 +34,7 @@ channel.waitForInitialization('onCordovaInfoReady');
  * phone, etc.
  * @constructor
  */
-function DeleteMe() {
+function Device() {
     this.available = false;
     this.platform = null;
     this.version = null;
@@ -76,8 +76,8 @@ function DeleteMe() {
  * @param {Function} errorCallback The function to call when there is an error getting the heading data. (OPTIONAL)
  */
 Device.prototype.getInfo = function(successCallback, errorCallback) {
-    argscheck.checkArgs('fF', 'DeleteMe.getInfo', arguments);
-    exec(successCallback, errorCallback, "DeleteMe", "getDeviceInfo", []);
+    argscheck.checkArgs('fF', 'Device.getInfo', arguments);
+    exec(successCallback, errorCallback, "Device", "getDeviceInfo", []);
 };
 
-module.exports = new DeleteMe();
+module.exports = new Device();
