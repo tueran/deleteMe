@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-deleteMe",
+  "name": "eleteMe",
   "version": "1.0",
   "description": "Cordova DeleteMe Plugin",
   "cordova": {
-    "id": "cordova-plugin-deleteMe",
+    "id": "com.siteforum.plugins.deleteMe",
     "platforms": [
       "ios"
     ]
@@ -13,37 +13,8 @@
     "url": "https://github.com/tueran/deleteMe"
   },
   "keywords": [
-    "cordova",
-    "device",
-    "ecosystem:cordova",
-    "cordova-firefoxos",
-    "cordova-tizen",
-    "cordova-android",
-    "cordova-amazon-fireos",
-    "cordova-ubuntu",
-    "cordova-ios",
-    "cordova-blackberry10",
-    "cordova-wp7",
-    "cordova-wp8",
-    "cordova-windows8",
-    "cordova-windows",
-    "cordova-browser",
-    "cordova-osx"
-  ],
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
-  },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "engines": {
-    "cordovaDependencies": {
-      "2.0.0": {
-        "cordova": ">100"
-      }
-    }
-  },
-  "devDependencies": {
-    "jshint": "^2.6.0"
-  }
+    "cordova-ios"
+    
+  ]
+  
 }

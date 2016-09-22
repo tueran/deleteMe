@@ -19,16 +19,13 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    xmlns:rim="http://www.blackberry.com/ns/widgets"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-deleteMe"
+    id="com.siteforum.plugins.deleteMe"
     version="1.0">
     <name>DeleteMe</name>
     <description>Cordova DeleteMe Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
-    <repo>https://github.com/tueran/deleteMe.git</repo>
-    <issue>https://issues.apache.org/jira/browse/CB/component/12320648</issue>
+    
 
     <js-module src="www/deleteMe.js" name="deleteMe">
         <clobbers target="deleteMe" />
@@ -38,7 +35,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="DeleteMe">
-                <param name="ios-package" value="DeleteMe"/>
+                <param name="ios-package" value="deleteMe"/>
             </feature>
         </config-file>
 
