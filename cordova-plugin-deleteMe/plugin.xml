@@ -23,7 +23,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-deleteMe"
     version="1.0">
-    <name>Device</name>
+    <name>DeleteMe</name>
     <description>Cordova DeleteMe Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
